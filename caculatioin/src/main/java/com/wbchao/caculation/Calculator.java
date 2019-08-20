@@ -86,7 +86,9 @@ public class Calculator implements Runnable {
         if (oddCount == 0) {
             return 0.0;
         } else {
-            return (double) evenCount / (double) oddCount;
+            double rate = (double) evenCount / (double) oddCount;
+            System.out.println(rate + "");
+            return rate;
         }
     }
 
@@ -94,7 +96,7 @@ public class Calculator implements Runnable {
     public void run() {
         for (int i = 0; i < loopNumber; i++) {
             int index = Report.getInstance()
-                                  .getCount();
+                              .getCount();
             String content = generateText(index + ".txt");
             Report.getInstance()
                   .addResult(index, getEvenOddRate(content));
