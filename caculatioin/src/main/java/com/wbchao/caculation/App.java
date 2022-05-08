@@ -8,15 +8,15 @@ import java.util.concurrent.TimeUnit;
 public class App {
 
     public static void main(String[] args) {
-        int lineNumbers = 5000;
+        int lineNumber = 5000;
         if (args.length != 0) {
-            lineNumbers = Integer.parseInt(args[0]);
+            lineNumber = Integer.parseInt(args[0]);
         }
 
         ExecutorService pool = Executors.newFixedThreadPool(5);
 
         for (int i = 0; i < 5; i++) {
-            Calculator c = new Calculator(5000, 10);
+            Calculator c = new Calculator(lineNumber, 10);
             pool.submit(c);
         }
 
