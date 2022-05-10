@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ali-test" />
         <module name="caculatioin" />
+        <module name="tls-test" />
+        <module name="leet-code" />
       </profile>
     </annotationProcessing>
   </component>
