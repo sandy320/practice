@@ -4,7 +4,10 @@ public class Offer58 {
 
     public static void main(String[] args) {
         String s = "abcdefg";
-        System.out.println(reverseLeftWords(s, 2));
+        //   System.out.println(reverseLeftWords(s, 2));
+
+        s = "a good   example";
+        reverseWords(s);
 
     }
 
@@ -25,5 +28,22 @@ public class Offer58 {
             str[L++] = str[R];
             str[R--] = tmp;
         }
+    }
+
+    public static String reverseWords(String s) {
+        String[] str = s.trim()
+                        .split("\\s+");
+        int L = 0;
+        int R = str.length - 1;
+        while (L < R) {
+            String tmp = str[L];
+            str[L++] = str[R];
+            str[R--] = tmp;
+        }
+        StringBuffer sb = new StringBuffer();
+        for (String cur : str) {
+            sb.append(" " + cur);
+        }
+        return sb.substring(1);
     }
 }
