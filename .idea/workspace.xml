@@ -5,77 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b447d36e-6d9c-4fda-9fb7-b5d1a40c7b44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/CanIWin464.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/CutOffTreesForGolfEvent675.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/DeleteNodeInABst450.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/FindAndReplacePattern890.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/FindBottomLeftTreeValue513.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/FindClosestLcci17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/FlipStringToMonotoneIncreasing926.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/GenerateRandomPointInACircle478.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/HeightChecker1051.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/KokoEatingBananas875.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/KthSmallestNumberInMultiplicationTable668.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/MatchsticksToSquare473.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/MinimumMovesToEqualArrayElementsii462.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/NRepeatedElementInSize2nArray961.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/RemoveOutermostParentheses1021.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/SumOfRootToLeafBinaryNumbers1022.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/UniqueEmailAddresses929.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/UniqueSubstringsInWraparoundString467.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/UnivaluedBinaryTree965.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/ValidateIpAddress468.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet852.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/AllPathsFromSourceToTarget797.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/ArithmeticSlices413.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/CombinationSum39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/CombinationSum40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/DecodeWays91.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/DeleteOperationForTwoStrings583.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/EditDistance72.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/FindAllAnagramsInAString438.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/GenerateParentheses22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/HouseRobber213.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/JumpGame45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/JumpGame55.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/LetterCombinationsOfAPhoneNumber17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/LongestCommonSubsequence1143.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/LongestIncreasingSubsequence300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/MinimumSizeSubarraySum209.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/NumberOfIslands200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/NumberOfLongestIncreasingSubsequence673.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/NumberOfProvinces547.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/Permutations47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/ShortestPathInBinaryMatrix1091.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/SongestPalindromicSubstring5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/SubarrayProductLessThanK713.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/Subsets78.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/SurroundedRegions130.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/UniquePaths62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/WordBreak139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/medium/WordSearch79.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer37.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer38.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer51.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer59.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/ArrayNesting565.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/CompleteBinaryTreeInserter919.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/DefuseTheBomb1652.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/DesignLinkedList707.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/DistanceBetweenBusStops1184.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/GenerateAStringWithCharactersThatHaveOddCounts1374.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/LargestSubstringBetweenTwoEqualCharacters1624.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/LongestArithmeticSubsequence1027.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/LongestUncommonSubsequence522.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/MaxStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/MaximumLengthOfPairChain646.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/MaximumLevelSumOfAbinaryTree1161.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/MaximumWidthOfBinaryTree662.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/MinimumCostToHireKworkers857.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/MinimumNumberOfRefuelingStops871.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/NextGreaterElementiii556.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/RandomPickWithBlacklist710.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/RankTransformOfAnArray1331.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/RotatedDigits788.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/SpecialArrayWithXelementsGreaterThanOrEqualX1608.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/SpecialPositionsInABinaryMatrix1582.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/TrimAbinarySearchTree669.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/ValidSquare593.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet1385.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet1539.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet278.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet367.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet441.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet69.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet744.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer2/Offer041.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer57.java" beforeDir="false" afterPath="$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/offer/Offer57.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,15 +192,15 @@
       <recent name="com.wbchao.leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leet852">
+  <component name="RunManager" selected="Application.RotatedDigits788">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlipStringToMonotoneIncreasing926" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wbchao.leetcode.FlipStringToMonotoneIncreasing926" />
+    <configuration name="DefuseTheBomb1652" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wbchao.leetcode.DefuseTheBomb1652" />
       <module name="leet-code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -250,8 +213,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KokoEatingBananas875" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wbchao.leetcode.KokoEatingBananas875" />
+    <configuration name="MaxStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wbchao.leetcode.MaxStack" />
       <module name="leet-code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -264,13 +227,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leet852" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wbchao.leetcode.binarysearch.Leet852" />
+    <configuration name="RotatedDigits788" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wbchao.leetcode.RotatedDigits788" />
       <module name="leet-code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wbchao.leetcode.binarysearch.*" />
+          <option name="PATTERN" value="com.wbchao.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,13 +241,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubsequence1143" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wbchao.leetcode.medium.LongestCommonSubsequence1143" />
+    <configuration name="SpecialArrayWithXelementsGreaterThanOrEqualX1608" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wbchao.leetcode.SpecialArrayWithXelementsGreaterThanOrEqualX1608" />
       <module name="leet-code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wbchao.leetcode.medium.*" />
+          <option name="PATTERN" value="com.wbchao.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,8 +255,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchsticksToSquare473" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wbchao.leetcode.MatchsticksToSquare473" />
+    <configuration name="SpecialPositionsInABinaryMatrix1582" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wbchao.leetcode.SpecialPositionsInABinaryMatrix1582" />
       <module name="leet-code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -312,15 +275,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -352,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Leet852" />
-        <item itemvalue="Application.FlipStringToMonotoneIncreasing926" />
-        <item itemvalue="Application.KokoEatingBananas875" />
-        <item itemvalue="Application.LongestCommonSubsequence1143" />
-        <item itemvalue="Application.MatchsticksToSquare473" />
+        <item itemvalue="Application.RotatedDigits788" />
+        <item itemvalue="Application.DefuseTheBomb1652" />
+        <item itemvalue="Application.MaxStack" />
+        <item itemvalue="Application.SpecialArrayWithXelementsGreaterThanOrEqualX1608" />
+        <item itemvalue="Application.SpecialPositionsInABinaryMatrix1582" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +364,41 @@
       <workItem from="1655020036635" duration="2722000" />
       <workItem from="1655102415057" duration="811000" />
       <workItem from="1655117655677" duration="1012000" />
-      <workItem from="1655879767334" duration="5890000" />
+      <workItem from="1655879767334" duration="6735000" />
+      <workItem from="1656129219942" duration="15808000" />
+      <workItem from="1656211159885" duration="6874000" />
+      <workItem from="1656306360378" duration="583000" />
+      <workItem from="1656315119676" duration="83000" />
+      <workItem from="1656315340968" duration="53000" />
+      <workItem from="1656318196369" duration="834000" />
+      <workItem from="1656333957952" duration="1456000" />
+      <workItem from="1656749889272" duration="6930000" />
+      <workItem from="1656820749796" duration="600000" />
+      <workItem from="1656836369860" duration="809000" />
+      <workItem from="1656843818984" duration="4653000" />
+      <workItem from="1657464106207" duration="577000" />
+      <workItem from="1657969731016" duration="2405000" />
+      <workItem from="1658034492893" duration="2482000" />
+      <workItem from="1658648192313" duration="61000" />
+      <workItem from="1658648311207" duration="1303000" />
+      <workItem from="1658757911087" duration="2049000" />
+      <workItem from="1659106249097" duration="2836000" />
+      <workItem from="1659257999488" duration="2782000" />
+      <workItem from="1659354359682" duration="1387000" />
+      <workItem from="1659779710333" duration="59000" />
+      <workItem from="1661574788394" duration="21000" />
+      <workItem from="1661574843591" duration="4120000" />
+      <workItem from="1662197447101" duration="8804000" />
+      <workItem from="1662378658348" duration="591000" />
+      <workItem from="1662785518979" duration="4605000" />
+      <workItem from="1662790159614" duration="2058000" />
+      <workItem from="1662890635412" duration="4957000" />
+      <workItem from="1663400127729" duration="69000" />
+      <workItem from="1663400231349" duration="6071000" />
+      <workItem from="1663941888370" duration="3038000" />
+      <workItem from="1663988597126" duration="13245000" />
+      <workItem from="1664096285826" duration="4545000" />
+      <workItem from="1664969124622" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1566298406782</created>
@@ -440,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652797389594</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="upload">
+      <created>1655890983139</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655890983139</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -500,7 +502,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Add module setting" />
     <MESSAGE value="Add questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add questions" />
+    <MESSAGE value="upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -834,6 +837,96 @@
           <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet852.java</url>
           <line>14</line>
           <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet367.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet69.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet69.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet278.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet278.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/MinimumNumberOfRefuelingStops871.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/binarysearch/Leet153.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/NextGreaterElementiii556.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/NextGreaterElementiii556.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/ArrayNesting565.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/CompleteBinaryTreeInserter919.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/CompleteBinaryTreeInserter919.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/RankTransformOfAnArray1331.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/MaximumLengthOfPairChain646.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/SpecialPositionsInABinaryMatrix1582.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/SpecialArrayWithXelementsGreaterThanOrEqualX1608.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/MaxStack.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/com/wbchao/leetcode/DefuseTheBomb1652.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="189" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
