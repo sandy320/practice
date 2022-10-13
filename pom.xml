@@ -11,5 +11,6 @@
     <modules>
         <module>caculatioin</module>
         <module>ali-test</module>
+        <module>cloud-kitchens</module>
     </modules>
 </project>

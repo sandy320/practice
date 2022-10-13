@@ -9,6 +9,7 @@
         <module name="ali-test" />
         <module name="caculatioin" />
         <module name="tls-test" />
+        <module name="cloud-kitchens" />
         <module name="leet-code" />
       </profile>
     </annotationProcessing>
