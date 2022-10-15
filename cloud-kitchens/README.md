@@ -7,7 +7,7 @@ It could be run in both cmd and IDE.
 
 Java 1.8
 
-****Configuration
+###### **Configuration**
 **strategy**
     The strategy full class name 
     should be com.kitchen.strategy.MatchedPickStrategy
