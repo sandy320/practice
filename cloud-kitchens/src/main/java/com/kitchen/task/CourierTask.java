@@ -1,8 +1,8 @@
 package com.kitchen.task;
 
 import com.kitchen.entity.Courier;
-import com.kitchen.listener.DeliveryEvent;
 import com.kitchen.service.KitchenSystem;
+import com.kitchen.util.Utils;
 
 import java.util.Date;
 import java.util.concurrent.Callable;
@@ -20,9 +20,12 @@ public class CourierTask implements Callable<DeliveryEvent> {
     @Override
     public DeliveryEvent call() throws Exception {
         courier.setArriveTime(System.currentTimeMillis());
-        System.out.println("Courier arrives at " + new Date(courier.getArriveTime()));
+        System.out.println(Utils.formatDate(new Date()) + ": Courier arrived");
         DeliveryEvent event = kitchenSystem.getPickStrategy()
                                            .pickup(courier);
+        if(event.isDelivered()){
+            System.out.println(Utils.formatDate(new Date()) + ": Order delivered |Order wait: " + event.getOrderWaitTime() + "ms|Courier wait: " + event.getCourierWaitTime() + "ms");
+        }
         return event;
     }
 }

@@ -1,5 +1,7 @@
 package com.kitchen.util;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
@@ -32,5 +34,16 @@ public class Utils {
         Random r = new Random();
         int gap = max - min + 1;
         return min + r.nextInt(gap);
+    }
+
+    /**
+     * Formate date for easy read
+     *
+     * @param date
+     * @return
+     */
+    public static String formatDate(Date date) {
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+        return sdf.format(date);
     }
 }

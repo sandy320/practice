@@ -2,10 +2,13 @@ package com.kitchen.strategy;
 
 import com.kitchen.entity.Courier;
 import com.kitchen.entity.Order;
-import com.kitchen.listener.DeliveryEvent;
+import com.kitchen.mq.CourierQueue;
+import com.kitchen.mq.FifoQueue;
+import com.kitchen.task.DeliveryEvent;
 import com.kitchen.service.KitchenSystem;
 import com.kitchen.util.Utils;
 
+import java.util.Date;
 import java.util.Map;
 
 public class FifoPickStrategy implements PickStrategy {
@@ -22,25 +25,23 @@ public class FifoPickStrategy implements PickStrategy {
      * @param courier
      */
     @Override
-    public DeliveryEvent pickup(Courier courier) {
+    public synchronized DeliveryEvent pickup(Courier courier) {
         DeliveryEvent event = new DeliveryEvent();
         Map<String, Order> readyOrders = kitchenSystem.getOrderWaitPool();
-        if (!kitchenSystem.getFifoWaitPool()
-                          .isEmpty()) {
+        if (!readyOrders.isEmpty()) {
             // There are some orders ready, the courier could pick up random one immediately
             // The courier waitTime is 0
             // The order waitTime is courier arrived timestamp - order ready timestamp
             String randomOrderId = Utils.getRandomKey(kitchenSystem.getOrderWaitPool());
-            Order deliveryOrder = readyOrders.get(randomOrderId);
-            event.setOrderWaitTime(courier.getArriveTime() - deliveryOrder.getReadyTime());
+            Order order = readyOrders.get(randomOrderId);
+            event.setOrderWaitTime(courier.getArriveTime() - order.getReadyTime());
             event.setDelivered(true);
-            event.setOrder(deliveryOrder);
+            event.setOrder(order);
             readyOrders.remove(randomOrderId);
         } else {
             // Courier arrives at kitchen first, the order is not ready
             // Put the courier to wait pool
-            kitchenSystem.getFifoWaitPool()
-                         .add(courier);
+            kitchenSystem.addCourier(courier);
         }
         return event;
     }
@@ -49,9 +50,10 @@ public class FifoPickStrategy implements PickStrategy {
      * There are couriers waiting for long time, the order could be delivered immediately
      * The queue empty check and poll is atom action
      * Avoid the scenario:
-     * There is one emlement in queue
+     * There is one element in queue
      * Thread1 check the queue is not empty, -----------------------> poll from empty queue --> NPE
      * Thread2 check the queue is not empty, poll faster than thread1
+     *
      * @param order
      * @return
      */
@@ -59,18 +61,14 @@ public class FifoPickStrategy implements PickStrategy {
     public synchronized DeliveryEvent pickup(Order order) {
         // Check if there is already courier waiting
         DeliveryEvent event = new DeliveryEvent();
-        if (!kitchenSystem.getFifoWaitPool()
-                          .isEmpty()) {
+        if (kitchenSystem.hasAvailableCourier(order.getId())) {
             // There is courier waiting for long time, the order could be delivered immediately
             // So the order waitTime is 0
             // The courier wait time = order ready timestamp - courier arrive time
-            Courier pickCourier = kitchenSystem.getFifoWaitPool()
-                                               .poll();
+            Courier pickCourier = kitchenSystem.pollCourier(order.getId());
             event.setDelivered(true);
             event.setCourierWaitTime(order.getReadyTime() - pickCourier.getArriveTime());
             event.setOrder(order);
-            kitchenSystem.getMatchedWaitPool()
-                         .remove(order.getId());
             kitchenSystem.getKitchen()
                          .remove(order.getId());
         } else {
@@ -80,4 +78,19 @@ public class FifoPickStrategy implements PickStrategy {
         return event;
     }
 
+
+    /**
+     * Return the FifoQueue
+     *
+     * @return
+     */
+    @Override
+    public CourierQueue newCourierQueue() {
+        return new FifoQueue();
+    }
+
+    @Override
+    public String getName() {
+        return "FIFO";
+    }
 }

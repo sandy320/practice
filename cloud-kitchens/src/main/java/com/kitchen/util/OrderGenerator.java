@@ -1,12 +1,43 @@
 package com.kitchen.util;
 
+
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.kitchen.entity.Order;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+
 public class OrderGenerator {
+
+    /**
+     * Generate the orders from given file
+     *
+     * @param path
+     * @return
+     */
+    public static List<Order> generateOrder(String path) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.configure(JsonParser.Feature.AUTO_CLOSE_SOURCE, true);
+        File file = new File(path);
+        InputStream ins = null;
+
+        if (file.exists()) {
+            ins = new FileInputStream(file);
+        } else {
+            ins = Utils.class.getResourceAsStream(Const.DEFAULT_DATA_FILE);
+        }
+        List<Order> orders = mapper.readValue(ins, new TypeReference<List<Order>>() {});
+        return orders;
+    }
 
     /**
      * Generate order list with count size

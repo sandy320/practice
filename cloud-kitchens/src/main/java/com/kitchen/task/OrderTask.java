@@ -1,8 +1,8 @@
 package com.kitchen.task;
 
 import com.kitchen.entity.Order;
-import com.kitchen.listener.DeliveryEvent;
 import com.kitchen.service.KitchenSystem;
+import com.kitchen.util.Utils;
 
 import java.util.Date;
 import java.util.concurrent.Callable;
@@ -38,10 +38,13 @@ public class OrderTask implements Callable<DeliveryEvent> {
 
         // Record the order ready timestamp
         order.setReadyTime(System.currentTimeMillis());
-        System.out.println("Order " + order.getName() + " is ready at " + new Date(order.getReadyTime()));
+        System.out.println(Utils.formatDate(new Date()) + ": Order " + order.getName() + " is prepared");
 
         DeliveryEvent event = kitchenSystem.getPickStrategy()
                                            .pickup(order);
+        if(event.isDelivered()){
+            System.out.println(Utils.formatDate(new Date()) + ": Order delivered |Order wait: " + event.getOrderWaitTime() + "ms|Courier wait: " + event.getCourierWaitTime() + "ms");
+        }
         return event;
     }
 }
